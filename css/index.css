@@ -1,0 +1,39 @@
+*{
+    font-family: poppins;
+}
+
+.form-control{
+    width: 250px;
+}
+
+html {
+    overflow: scroll;
+    overflow-x: hidden;
+}
+::-webkit-scrollbar {
+    width: 0;  /* Remove scrollbar space */
+    background: transparent;  /* Optional: just make scrollbar invisible */
+}
+/* Optional: show position indicator in red */
+::-webkit-scrollbar-thumb {
+    background: #00287e;
+}
+
+.modal-login{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    height: 300px;
+}
+
+form div input, form div select{
+    padding: .65rem!important;
+    width: 300px!important;
+}
+
+form button{
+    width: 100%!important;
+    padding: .65rem!important;
+}
+
